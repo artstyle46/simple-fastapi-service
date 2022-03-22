@@ -11,4 +11,5 @@ class Data(BaseModel):
 
 @app.post("/")
 async def root(data: Data):
+    print(data)
     return data
