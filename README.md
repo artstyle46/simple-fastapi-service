@@ -4,7 +4,7 @@ A fastapi service that has single api which takes any type of input and returns 
 # To run the service
 
 - `pip install -r requirements.txt` (once)
-- `uvicorn main:app --reload` (to start the service)
+- `uvicorn main:app --port 8001 --reload` (to start the service)
 
 # Example Curl request:
 
